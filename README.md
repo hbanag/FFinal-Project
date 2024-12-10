@@ -48,6 +48,9 @@ The website also illustrates the mathematical framework for calculating deprecia
 1. https://matplotlib.org/stable/users/explain/axes/axes_ticks.html
 2. https://stackoverflow.com/questions/10998621/rotate-axis-tick-labels
 
+"ax.set_xticks(years)  # Ensure all years are shown as ticks
+ax.set_xticklabels([str(y) for y in years], rotation=45)"
+
 Both of these sources allowed me utlize them both to help explian 
 How to customize tick labels on plots, including setting specific ticks using set_xticks() and formatting and rotating labels with set_xticklabels(). 
 It is now more readable and organized (specfically, the x axis)
